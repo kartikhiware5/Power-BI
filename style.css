@@ -1,0 +1,1405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.backcolor {
+    background-color: #18023a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.master {
+    text-align: center;
+    padding: 15px 0;
+    line-height: 37px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+h4 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+
+.video {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video iframe{
+    width: 560px;
+    height: 315px;
+}
+
+.redblock{
+    margin: 18px auto;
+    background-color: red;
+    border-radius: 7px;
+    color: white;
+    width: 720px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0px;
+   
+}
+
+.redblock h2{
+    font-size: 31px;
+}
+
+
+.redblock p {
+    /* margin: auto; */
+    font-size: 22px;
+}
+
+
+
+ .redblock :hover{
+    transition:2s ;
+    background-color: rgb(109, 172, 250);
+ } 
+
+
+
+.list {
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+
+.list1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list li {
+    width: 35vw;
+    list-style: none;
+
+}
+
+.checktick {
+    width: 20px;
+    height: auto;
+}
+
+
+
+.discount {
+    background-color: rgb(34, 34, 88);
+
+
+}
+
+.lastdate {
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    margin: auto;
+    line-height: 45px;
+}
+
+.whitecon {
+    background-color: #f1f3f7;
+
+}
+
+h1 {
+    font-size: 47px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+}
+
+.maincheckbox {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whiteboxes{
+    display: flex;
+
+}
+
+.whitebox1 {
+
+    height: 100px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 15px;
+    display: flex;
+    gap: 5px
+}
+
+.whitebox {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+#check {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    accent-color: rgb(29, 218, 29);
+}
+
+.whitebox1 #check :hover {
+    transition: 1s;
+    background-color: black;
+}
+
+
+.workshop {
+    font-size: 25px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.register {
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.bluebox {
+    background-color: #18023a;
+    color: white;
+    height: 80px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+
+
+.pbimg #img1 {
+    height: 250px;
+    width: 400px;
+}
+
+
+.powerbi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 25px;
+
+}
+
+.label {
+    text-align: center;
+    border-radius: 7px solid black;
+    background-color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 25px;
+    margin: 10px 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.many {
+    font-size: 25px;
+    /* padding-top: 20px; */
+}
+
+.masterdata {
+    background-color: rgb(233, 237, 237);
+
+}
+
+.told h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+
+}
+
+.data {
+    margin: auto;
+    font-size: 32px;
+    width: 900px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 15px;
+    line-height: 47px;
+}
+
+.data span {
+    padding: 7px;
+}
+
+
+.told {
+    padding: 15px;
+}
+
+.orange {
+    margin: auto;
+    font-size: 26px;
+    width: 900px;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: block; */
+    padding: 15px;
+}
+
+
+.learn {
+    margin: auto;
+    font-size: 26px;
+    width: 900px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: block; */
+    padding: 15px;
+}
+
+
+
+.imgbox {
+    display: flex;
+    border: 2px solid rgba(128, 128, 128, 0.525);
+    border-radius: 12px;
+    width: 570px;
+    height: 180px;
+    background-color: #F6F6F6;
+    gap: 45px;
+    padding: 12px 10px;
+
+
+}
+
+.txt {
+    text-align: left;
+
+}
+
+.txt h3 {
+    width: 402px;
+    font-size: 27px;
+    line-height: normal;
+}
+
+.txt p {
+    color: #bbb5b5;
+    font-size: 20px;
+    width: 402px;
+}
+
+
+.mainbox {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.imgboxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blackbox {
+    background-image: linear-gradient(to right, black, rgb(14, 34, 57));
+    height: auto;   
+    width: 100%;
+}
+
+
+
+.bipara {
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    line-height: 40px ;
+    padding: 25px;
+}
+
+.greenfont {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 200px;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bioimg {
+    /* width: 400px;
+    height: 280px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+
+#viewimg {
+
+    width: 550px;
+    height: 280px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    gap: 10px;
+    margin: 16px;
+}
+
+
+.imgbox {
+    margin: 12px 7px;
+}
+
+.onebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pbipara {
+    text-align: center;
+    margin: 0px 90px;
+
+}
+
+
+.pbipara p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+
+.blackbox1 {
+    padding: 10px 0px;
+    font-size: 25px;
+    height: 120px;
+    background-color: black;
+    text-align: center;
+    margin: 15px 0px;
+
+
+}
+
+.blackbox1 p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* margin: 30px 0px; */
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+    line-height: 40px;
+    inset-block: center;
+}
+
+.blackbox1 h1 {
+    line-height: 40px;
+    inset-block: center;
+
+}
+
+.grayboxes {
+
+    height: 250px;
+    width: 550px;
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    position: relative;
+    margin: 18px;
+}
+
+.grayboxes p {
+    font-family: Arial;
+    width: auto;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 17px;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+
+.bonusbox1 {
+    position: absolute;
+    top: -25px;
+    right: 38%;
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.worthbox1 {
+    border-radius: 7px;
+    margin: auto;
+    height: 45px;
+    width: 230px;
+    border: 2px solid rgb(52, 1, 91);
+    text-align: center;
+    margin: 15px auto;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(52, 1, 91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bonusboxes {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.darkbox {
+    background-color: #0d022b;
+}
+
+.darkbox p {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 7px 150px;
+    line-height: 35px;
+
+}
+
+.darkbox h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#certificate {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 650px;
+    border-radius: 20px;
+
+}
+
+
+.skill p span {
+    font-size: 28px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.skill p {
+    font-size: 32px;
+    margin: 38px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 500; */
+    line-height: 45px;
+}
+
+.mentor h1 {
+    font-size: 55px;
+
+}
+
+#mentorimg {
+    height: 500px;
+    width: 470px;
+    border-radius: 20px;
+}
+
+.logo1 {
+    height: 40px;
+    width: 190px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    gap: 10px;
+    /* text-align: center;/ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.logobox1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainmentor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mentorpara {
+    line-height: 27px;
+    width: 400px;
+    font-size: 20px;
+    padding: 12px 22px;
+}
+
+.mainmentor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo1 i {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+
+.imgtag {
+    margin: 0px 35px;
+}
+
+
+.datasets {
+    background-color: #0f0135;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+.datasetspara {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 120px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.datasetspara p{
+    font-size: 25px;
+}
+
+.proof p {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 9px 100px;
+    text-align: center;
+
+}
+.proof p a{
+    color: blue;
+}
+
+#pimg {
+    height: 335px;
+    width: 470px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+
+.proofimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin: 25px 0px;
+
+}
+
+.box8 {
+    height: 37px;
+    width: 1200px;
+    border: 2px solid black;
+    background-color: #1b0751;
+    color: white;
+    margin: 5px auto;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.box8 i {
+    font-size: 22px;
+    margin-bottom: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:499px) {
+    .master h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    .video iframe {
+        width: 100%;
+
+    }
+
+
+    .redblock {
+        width: auto;
+        margin: 10px 10px;
+        padding: 5px 25px;
+    }
+
+    .redblock h2 {
+        font-size: 21px;
+        font-weight: 700;
+
+    }
+
+
+
+
+    .redblock p {
+        font-size: 10x;
+
+
+    }
+
+
+
+    .register {
+        font-size: 22px;
+        padding: 7px 0px
+    }
+
+    .video {
+        /* margin: auto; */
+        width: 90%;
+        padding: 15px 0px;
+        /* height: auto; */
+
+    }
+
+    .whiteboxes {
+        flex-direction: column;
+    }
+
+    .whitecon h1 {
+        font-size: 27px;
+    }
+
+    .list1 {
+        flex-direction: column;
+        padding: 12px 25px;
+
+    }
+
+    .list li {
+        padding: 0px 20px;
+        font-size: 15px;
+        width: 100%;
+        line-height: 29px;
+    }
+
+    .workshop {
+        font-size: 20px;
+        /* width: auto; */
+    }
+
+    .bluebox {
+        font-size: 26px;
+        padding: 8px;
+    }
+
+    .para {
+        width: 100%;
+        font-size: 18px;
+        padding: 7px 20px;
+        line-height: 21px;
+    }
+
+    .whitecon h1 {
+        font-size: 22px;
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    .maincheckbox {
+        flex-direction: row;
+    }
+
+    .whitebox {
+        flex-direction: column;
+
+    }
+
+    .whitebox1 {
+        height: auto;
+        width: 90%;
+
+    }
+
+    .whitebox1 div {
+        font-size: 17px;
+
+    }
+
+    #check {
+        width: 20px;
+    }
+
+    .powerbi {
+        flex-direction: column;
+    }
+
+    .pbimg #img1 {
+        padding: 0px 10px;
+        width: 100%;
+
+    }
+
+    .many h1 {
+        font-size: 37px;
+    }
+
+    .label {
+        font-size: 15px;
+        /* padding: 30px; */
+    }
+
+    .toolpbi p {
+        font-size: 20px;
+        line-height: 10px;
+
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+
+    .data {
+        width: 100%;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+
+
+
+    .told h1 {
+        font-size: 27px;
+
+    }
+
+    .told p {
+        width: auto;
+
+        line-height: 37px;
+    }
+
+    .data {}
+
+    .imgboxx {
+        flex-direction: column;
+
+    }
+
+
+
+    .imgbox {
+        width: auto;
+    }
+
+    .imgbox h3 {
+        font-size: 19px;
+        width: auto;
+        margin: 0%;
+
+    }
+
+    .imgbox p {
+        font-size: 17px;
+        width: auto;
+
+
+    }
+
+    .imgbox imglogo {
+        /* font-size: 2px; */
+    }
+
+
+    .bipara {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .greenfont {
+        font-size: 22px;
+        margin: 0;
+        padding: 5px 0px;
+    }
+
+    .review {
+        flex-direction: column;
+        padding: 0px 30px;
+        height: auto;
+    }
+
+    #viewimg {
+        width: 100%;
+        margin: 10px auto;
+
+
+    }
+
+    .pbipara {
+        margin: auto;
+
+    }
+
+    .pbipara p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 28px;
+        padding: 15px 10px;
+    }
+
+    .blackbox1 {
+        height: auto;
+        width: auto;
+    }
+
+    .blackbox1 h1 {
+        font-size: 25px;
+        width: auto;
+        padding: 0;
+    }
+
+    .blackbox1 p {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .bonusboxes {
+        flex-direction: column;
+        /* width: 0 25px; */
+    }
+
+    .grayboxes {
+        width: auto;
+
+    }
+
+    .grayboxes p {
+        font-size: 18px;
+
+    }
+
+    .worthbox1 {
+        font-size: 17px
+    }
+
+    .bonusbox1 {
+        font-size: 17px;
+    }
+
+
+
+    .darkbox h1 {
+        font-size: 25px;
+        width: 100%;
+
+    }
+
+    .darkbox p {
+        font-size: 20px;
+        width: 100%;
+        margin: 0;
+        padding: 5px 20px;
+        line-height: 23px;
+    }
+
+    #certificate {
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+    }
+
+    .skill p {
+        font-size: 17px;
+        width: 100%;
+        line-height: 25px;
+        padding: 20px 30px;
+    }
+
+    .mentor h1 {
+        font-size: 35px;
+        width: auto;
+    }
+
+    .mainmentor {
+        flex-direction: column;
+    }
+
+    #mentorimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .logobox1 {
+
+        flex-direction: column;
+        margin: 0 20px;
+
+    }
+
+
+    .logo1 {
+        width: 100%;
+        padding: 34px;
+        font-size: 20px;
+    }
+
+    .mentorpara {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+
+    .datasetspara {
+        width: 100%;
+        margin: auto;
+        padding: 12px 16px;
+    }
+
+    .datasets {
+        padding: 0;
+    }
+
+    .datasets h1 {
+        font-size: 25px;
+
+        padding: 7px 10px;
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .datasetspara p {
+        width: auto;
+        font-size: 17px;
+        /* padding: auto; */
+        /* margin: auto; */
+
+    }
+
+    .proof h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .proof p {
+        margin: auto;
+        width: 100%;
+        font-size: 20px;
+        padding: 10px 0px;
+        text-align: center;
+        padding: 10px 31px;
+    }
+
+    .proofimg {
+        flex-direction: column;
+        height: 100%;
+        margin: auto;
+        padding: 26px;
+    }
+
+    #pimg {
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+
+    }
+
+    .box8 {
+        width: auto;
+        margin: 9px 10px;
+        font-size: 15px;
+    }
+
+}
+
+
+@media (min-width: 499px) and (max-width: 779px) {
+
+    .redblock {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .redblock h2 {
+        padding: 2px 5px;
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .list1 {
+        flex-direction: column;
+        padding: 10px 20px;
+
+    }
+
+    .list li {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .whitecon h1 {
+        font-size: 35px;
+    }
+
+    .whiteboxes {
+        flex-direction: column;
+
+    }
+
+    .bluebox {
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .powerbi {
+        flex-direction: column;
+    }
+
+    .told p {
+        padding: auto;
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .told {
+        padding: auto;
+    }
+
+    .imgboxx {
+        flex-direction: column;
+        padding: 0px 25px;
+
+    }
+
+    .imgbox {
+        width: 100%;
+
+
+    }
+
+    .onebox {
+        padding: 0px 20px;
+    }
+
+
+
+
+    .txt h3 {
+        font-size: 25px;
+        gap: 5px;
+    }
+
+    .blackbox p {
+        font-size: 30px;
+    }
+
+    .greenfont {
+        font-size: 50px;
+        padding: 0px 1px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .review {
+        flex-direction: column;
+
+    }
+
+    #viewimg {
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .blackbox1 h1 {
+        font-size: 30px;
+        padding: 5px 2px;
+    }
+
+    .blackbox1 p {
+        font-size: 21px;
+    }
+
+    .bonusboxes {
+        flex-direction: column;
+        padding: 0px 25px;
+    }
+
+    .grayboxes {
+        width: 100%;
+
+    }
+
+    .darkbox h1 {
+        font-size: 30px;
+    }
+
+    .darkbox p {
+        width: auto;
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    #certificate {
+        width: 100%;
+        height: auto;
+    }
+
+    .datasets h1 {
+        font-size: 32px;
+    }
+
+    .datasetspara {
+        margin: auto;
+        padding: 10px 0px;
+    }
+
+    .skill p {
+        width: auto;
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .mainmentor {
+        flex-direction: column;
+    }
+
+    .proofimg {
+        flex-direction: column;
+
+    }
+
+    .box8 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 779px) and (max-width: 1024px) {
+
+    .backcolor {
+        width: 100%;
+    }
+
+    .master {
+        width: 100%;
+    }
+
+    .whiteboxes {
+        flex-direction: column;
+
+    }
+
+    .whitebox1 {
+        width: auto;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 33px;
+    }
+
+    .workshop {
+        padding: 10px 40px;
+
+    }
+
+    .redblock {
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .register {
+        padding: 5px 30px;
+    }
+
+    .bluebox {
+        font-size: 32px;
+    }
+
+    .powerbi {
+        flex-direction: column;
+    }
+
+    .pbimg {
+        width: auto;
+    }
+
+    .told h1 {
+        font-size: 37px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 750;
+    }
+
+    .told p {
+        width: auto;
+        text-align: center;
+    }
+
+    .imgboxx {
+        flex-direction: column;
+    }
+
+    .imgbox {
+        width: 80%;
+    }
+
+    .txt h3 {
+        width: auto;
+        height: auto;
+    }
+
+    #viewimg {
+        display: flex;
+    }
+
+    .mainmentor {
+        flex-direction: column;
+    }
+
+    .logo1 {
+        padding: 40px 16px;
+        font-size: 16px;
+
+    }
+
+    .mentorpara {
+        width: auto;
+        padding: 0px 50px;
+        text-align: center;
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+
+    .proofimg {
+        flex-direction: column;
+    }
+
+    .box8 {
+        width: auto;
+        margin: 10px 25px;
+    }
+
+}
